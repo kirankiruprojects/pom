@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Test(failed)">
+    <parameter name="UserName" value="Kiran"/>
+    <parameter name="Password" value="Kiran123@"/>
+    <classes>
+      <class name="BesantOCT.seleniumtest.TestNG_Parameterized">
+        <methods>
+          <include name="drag_drop"/>
+        </methods>
+      </class> <!-- BesantOCT.seleniumtest.TestNG_Parameterized -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
